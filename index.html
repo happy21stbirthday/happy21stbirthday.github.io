@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mutlu Yıllar Buse !</title>
+  <script src="Drog.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class='birthday'>
+  <div class='birthday_inner'>
+    <div class='birthday_inner__modal'>
+      <div class='modal_image'>
+        <img src='/'>
+      </div>
+      <div class='modal_content'>
+        <h1>Title</h1>
+        <p>Content</p>
+        <button>Hadi başlayalım</button>
+      </div>
+    </div>
+    <div class='birthday_inner__stage stage1'>
+      <div class='intro_cake'>
+        <img class='intro' src="custom-cake.png">
+      </div>
+      <button class='start'>Hadi pasta yapalım !</button>
+    </div>
+    <div class='birthday_inner__stage stage2'>
+      <h1>Pasta kremasını hazırlayalım</h1>
+      <h2>İlk olarak malzemeleri kasede karıştırmaya başlayalım. Karıştırmaya başlamak için butona tıklaman yeterli. Unutma pastanın güzel olması için içine sevgini de katmalısın. </h2>
+      <div class='mix'>
+        <div class='mix_bowl'>
+          <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/bowl.png'>
+        </div>
+        <div class='mix_spoon'>
+          <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/spoon.png'>
+        </div>
+      </div>
+      <button class='mixer'>Karıştır</button>
+    </div>
+    <div class='birthday_inner__stage stage3'>
+      <h1>Kalıbı fırına koyalım</h1>
+      <h2>Tamam, şimdi ise kek kalıbını fırına vermen gerekiyor. Kek kalıbını fırının üstüne sürükle ve hazır olunca fırına tıkla. Sevgiyle hazırladığın kekin pişmesini beklemelisin.</h2>
+      <div class='oven'>
+        <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/oven.png'>
+      </div>
+      <div class='tin'>
+        
+        <form name="drag-head" class="win-dos">
+          <div data-drog>
+            <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/tin.png'>
+          </div>
+      </form>
+      <script>
+        Drog.on(document.forms["drag-head"]);
+      </script> 
+      </div>
+    </div>
+    <div class='birthday_inner__stage stage4'>
+      <h1>Pastanı süsleyelim!</h1>
+      <h2>Hayallerindeki pastayı burada tasarlamaya hazır mısın?. Malzemelerden hangisini pastana eklemek istiyorsan üstüne tıklaman yeterli. Bir malzemeyi biçok kez kullanabilirsin. Pastan hazır olduğunda mum eklemeyi unutma! İstersen pastanın son halini benimle paylaşabilirsin.  </h2>
+      <div class='options'>
+        <div class='sponges inactive'>
+          <h3>Kekler</h3>
+          <h5>
+            <span>0</span>
+            / 5
+          </h5>
+          <div class='item'>
+            <div class='item_inner vanilla'></div>
+            <h4>Vanilya</h4>
+          </div>
+          <div class='item'>
+            <div class='item_inner strawberry'></div>
+            <h4>Çilek</h4>
+          </div>
+          <div class='item'>
+            <div class='item_inner fruit'></div>
+            <h4>Elma</h4>
+          </div>
+        </div>
+        <div class='fillings'>
+          <h3>Kremalar</h3>
+          <h5>
+            <span>0</span>
+            / 6
+          </h5>
+          <div class='item'>
+            <div class='item_inner jam'></div>
+            <h4>Reçel</h4>
+          </div>
+          <div class='item'>
+            <div class='item_inner cream'></div>
+            <h4>Sade</h4>
+          </div>
+          <div class='item'>
+            <div class='item_inner choc'></div>
+            <h4>Çiko</h4>
+          </div>
+          <div class='item'>
+            <div class='item_inner lemon'></div>
+            <h4>Limon</h4>
+          </div>
+        </div>
+      </div>
+      <div class='cakemake'>
+        <div class='base'></div>
+      </div>
+      <div class='startagain'>Sıfırla</div>
+      <p class="sa hp "> 21. Yaşın Kutlu Olsun Buse </p>
+      <button class='add'>Mum ekle ve bitir</button>
+      <button class='sa'>Yeniden başla</button>
+      <br>
+	  <a href="message.html">
+      <button class='message'>Furkan' ın mesajını gör</button>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js'></script><script  src='script.js'></script>
+</body>
+</html>
